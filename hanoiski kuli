@@ -1,3 +1,7 @@
+  namespace itkariera1
+{
+    internal class Program
+    {
   static void action(char from, char to)
         {
             Console.WriteLine("take from {0}, put on {1}", from, to);
@@ -15,3 +19,5 @@
         {
             hanoi(3, 'a','c','b');
         }
+}
+ }

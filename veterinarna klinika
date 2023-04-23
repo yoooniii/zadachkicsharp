@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Program {
+    static void Main(string[] args)
+        {    double sum = 0.0;
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
+            {
+                string s = Console.ReadLine();
+                if (s.Equals("microscope")) sum += 6000;
+                if (s.Equals("scalpel")) sum += 1500;
+                if (s.Equals("syringe")) sum += 100;
+            }
+            Console.WriteLine("{0:f2}",sum);
+        }
+    }
